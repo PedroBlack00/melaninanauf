@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+  background-color: #38b6ff;
+  font: 400 1rem 'DM Sans', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+}
+header {
+  position: -ms-page;
+  top: 0;
+  height: 200px;
+  border: ridge;
+  width: 1330px;
+}
+nav {
+  position: absolute;
+  top: 210px;
+  width: 1330px;
+  background-color: rgb(255, 255, 255);
+  border: ridge;
+}
+footer {
+  background-color: rgb(255, 255, 255);
+  justify-items: auto;
+  position: relative;
+  bottom: 0px;
+  width: 1330px;
+  border: ridge;
+  height: 220px;
+  padding-inline-start: 10px;
+  top: 300px;
+}
+.titulo {
+  position: absolute;
+  top: 130px;
+  height: 200px;
+  right: 40%;
+  color: white;
+  font-size: large;
+}
+.logo {
+  position: absolute;
+  top: 155px;
+  right: 90px;
+  color: rgb(255, 255, 255);
+}
+
+.tabela {
+  position: relative;
+  left: 350px;
+  background-color: white;
+  border: ridge;
+  width: 600px;
+  top: 150px;
+}
